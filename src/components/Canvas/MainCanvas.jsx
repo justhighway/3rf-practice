@@ -18,14 +18,14 @@ const MainCanvas = () => {
           fov: 60,
           near: 0.1,
           far: 1000,
-          position: [7, 7, 7],
+          position: [7, 10, 15],
         }}
       >
         <ambientLight intensity={2} />
         <directionalLight
           castShadow
           args={[0xffffff, 5]}
-          position={[5, 3, 0]}
+          position={[-3, 3, 5]}
           shadow-camera-left={-25}
           shadow-camera-right={25}
           shadow-camera-top={25}
